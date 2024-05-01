@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding-bottom: 50px; 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    width: 100%;
+    margin: 0 ;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.logo img {
+    width: 60px; 
+    height: 60px; 
+}
+
+
+.search-bar {
+    flex-grow: 0.5;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 90%;
+    padding: 8px;
+}
+
+.profile-details {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.product-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    flex: 0 1 calc(30% - 20px); 
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px;
+    max-height: 350px;
+}
+
+.product-card img {
+    max-width: 100%;
+    max-height: 50%;
+    margin-bottom: 10px;   
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.product-card p {
+    color: #666;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.product-card button {
+    background-color: #555;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #777;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #555;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
